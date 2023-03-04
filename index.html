@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Book Finder</title>
   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <!-- <script src="script1.js" defer></script> -->
 </head>
 
 <body>
@@ -14,9 +15,12 @@
       <p id="header">Book Store App</p>
       <div class="row">
         <div id="input" class="input-group mx-auto col-lg-6 col-md-8 col-sm-12">
-          <input id="search-box" type="text" class="form-control me-2" placeholder="Search Books!...">
+          <input id="search-box" type="text" class="form-control me-2" autofocus placeholder="Search Books!...">
           <div>
-            <button id="search" class="btn btn-light" onclick="">Search</button>
+            <button id="search" class="btn btn-light mx-3" onclick="">Search</button>
+          </div>
+          <div>
+            <a href="index1.html"> <button id="recent"> Recent search</button></a>
           </div>
         </div>
       </div>
@@ -26,10 +30,7 @@
       <div id="list-output" class="">
         <div class="row">
           <!-- card  -->
-          <div>
-            <button id="recent"> <a href="index1.html"></a>Recent search</button>
-            <button id="search" class="btn btn-light" onclick="">Search</button>
-          </div>
+          
         </div>
 
       </div>
