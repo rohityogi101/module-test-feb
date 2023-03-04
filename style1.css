@@ -63,3 +63,10 @@ main {
     color: white;
     background-color: black !important;
 }
+.hist{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font: 2rem sans-serif;
+    margin: 0 20px;
+}
